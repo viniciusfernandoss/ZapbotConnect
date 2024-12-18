@@ -1,0 +1,70 @@
+.navbar {
+    background-color: white; /* Altere para a cor desejada */
+    color: #5304C2;
+    /* box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); */
+}
+
+.nav-link{
+    color: #0B0119;
+    font-family: var(--fonte-Poppins);
+    font-weight: 400;
+    border-bottom: 2px solid transparent;
+}
+.nav-link:hover{
+    color: #5304C2;
+    border-bottom: 2px solid #8937FB;
+}
+
+.btn-fazer-contato{
+    /* background: linear-gradient(to top right, #5304C2, #8937FB); */
+    text-decoration: none;
+    font-family: var(--fonte-SegoeUi);
+    color: #5304C2;
+    border: 2px solid #5304C2;
+    font-weight: 400;
+    transition: 0.3s;
+    /* animation: pulse 1.5s infinite; */
+}
+.btn-fazer-contato:hover{
+    background-color: #150132;
+    color: white;
+    border: 2px solid transparent;
+}
+
+.btn-fazer-contato2{
+    /* background: linear-gradient(to top right, #5304C2, #8937FB); */
+    text-decoration: none;
+    background-color: #150132;
+    border: 2px solid transparent;
+    font-family: var(--fonte-SegoeUi);
+    color: white;
+    font-weight: 500;
+    transition: 0.3s;
+    /* animation: pulse 1.5s infinite; */
+}
+.btn-fazer-contato2:hover{
+    background-color: transparent;
+    color: #5304C2;
+    border: 2px solid #5304C2;
+}
+
+
+.navbar-toggler{
+    color: #0044CC;
+}
+.navbar-toggler-icon{
+    color: #0044CC;
+}
+
+@keyframes pulse{
+    0%{
+        box-shadow: 0 0 0 0 #0044CC;
+    }
+    70%{
+        box-shadow: 0 0 0 25px rgba(92, 168, 44, 0);
+    }
+    100%{
+        box-shadow: rgba(92, 168, 44, 0);
+    }
+    
+}

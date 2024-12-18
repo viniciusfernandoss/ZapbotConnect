@@ -1,0 +1,32 @@
+#chamado{
+
+}
+
+.content-card1-chamado p{
+    font-size: 1rem;
+}
+
+.btn-card1-chamado{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+.btn-card1-chamado:hover{
+    background-color: white;
+    color: black;
+
+}
+
+.content-card1-chamado{
+    background-color: #0092FF;
+}
+.content-card2-chamado{
+    background-color: #12C756;
+}
+.content-card3-chamado{
+    background-color: #8937FB;
+}
+.content-card4-chamado{
+    background-color: #FF763C;
+}

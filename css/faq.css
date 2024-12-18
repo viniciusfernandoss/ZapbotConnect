@@ -1,0 +1,60 @@
+.titulo1-faq{
+    font-family: var(--fonte-Poppins);
+    color: #2B3238;
+    font-weight: 600;
+}  
+ 
+   
+.accordion-item{
+    box-shadow: none;
+    border: 1px solid rgba(0, 0, 0, 0);  
+}
+
+.accordion-button.collapsed{
+    box-shadow: rgba(100, 100, 111, 0.2) 4px 4px 15px 0px;
+    font-family: var(--fonte-BebasNeue);
+    padding: 2% 2% 2% 2%;
+    font-size: 1rem;
+    color: #2B3238;
+    font-weight: 600;
+    background-color: white;
+}
+.accordion-collapse{
+    box-shadow: none;
+    font-family: var(--fonte-BebasNeue);
+    background-color: #5304C2;
+    color: white;
+    border-radius: 0px;
+    font-weight: 600;
+}
+.accordion-button:not(.collapsed){
+    box-shadow: none;
+    font-family: var(--fonte-BebasNeue);
+    background-color: #5304C2;
+    color: white;
+    box-shadow: none;
+    padding:  2% 2% 0.3% 2%;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.accordion-body{
+    box-shadow: none;
+    font-family: var(--fonte-SegoeUi);
+    font-size: 0.9rem;
+    color: white;
+    font-weight: 100;
+    padding: 0.5% 2% 1.5% 2%;
+}
+
+.btn-faq a{
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(to top right, #5304C2, #8937FB);
+    transition: 0.5s;
+}
+.btn-faq a:hover{
+    background: transparent;
+    color: #5304C2;
+    border: 1px solid #5304C2;
+}

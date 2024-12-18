@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Zap Bot Connect</title>
+
+    <!-- Link Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Link Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+    <!-- Link Swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="css/global.css">
+
+    <!-- Link ScrollReveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="js/reveal.js" defer></script>
+</head>
+<body>
+
+
+
+    <header>
+        <div class="header-top-fixo w-100">
+            <!--
+            ==================================================================
+                                Barra de Navegações
+            ==================================================================
+            -->
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container d-flex justify-content-between">
+                    <a class="navbar-brand m-0 p-0" href="index.html">
+                        <img src="img/logo-header.webp" alt="logo Zap Bot Connect" class="w-75">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Início</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="planos.html">Planos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://wa.me/5581988298915">Contato</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="https://app.zapbotconnect.com.br/#/login" target="_blank" class="btn-fazer-contato d-none d-lg-inline-block me-2 py-2 px-4 rounded-5">
+                        Área do Cliente
+                    </a>
+                    <a href="https://app.zapbotconnect.com.br/#/signup" target="_blank" class="btn-fazer-contato2 d-none d-lg-inline-block py-2 px-4 rounded-5">
+                        Cadastrar
+                    </a>
+                </div>
+            </nav>
+        </div>
+
+        <!-- 
+        ==================================================================
+                                Banner Inicial
+        ==================================================================
+        -->
+        <section class="sessao-inicial">
+            <div class="container my-5">
+                <div class="row">
+                    <div class="col-lg-5 col-12 d-flex flex-column justify-content-center align-items-center">
+                        <div class="content1-sessao-inicial justify-content-center">
+                            <h1 class="w-75  mb-4">
+                                Aumente suas vendas com automação no WhatsApp!
+                            </h1>
+                            <a href="planos.html" class="btn-sessao-inicial py-1 px-4 rounded-5">
+                                CONHECER MAIS!
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-12">
+                        <div class="content2-sessao-inicial d-flex justify-content-center">
+                            <iframe class="rounded-5" width="590" height="335" src="https://www.youtube.com/embed/JKeClRYb4xM?si=dHV7W6cLOZ-dpJLl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+
+
+    <main>
+        <!--
+        ==================================================================
+                                Case de Sucesso
+        ==================================================================
+        -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="content1-case-de-sucesso">
+                        <img src="img/teste.png" class="img-fluid" alt="Imagem Case de Sucesso">
+                    </div>
+                </div>
+                <div class="col-lg-6 d-flex align-items-center">
+                    <div class="content2-case-de-sucesso">
+                        <h2 class="w-75">
+                            É muito simples, veja como funciona!
+                        </h2>
+                        <p class="w-75 mb-4">
+                            Nossa ferramenta inovadora é a solução ideal para potencializar suas vendas no Whatsapp. Com ela, você economiza tempo, automatiza processos, programa envios de mensagens estratégicas, gerencia clientes com eficiência e realiza uma comunicação rápida e assertiva, garantindo interações relevantes e impactantes.
+                        </p>
+                        <a href="https://app.zapbotconnect.com.br/#/signup" target="_blank" class="btn-case-de-sucesso px-4 py-3 rounded-5">
+                            Quero passar para o próximo nível
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--
+        ==================================================================
+                                    Chamado
+        ==================================================================
+        -->
+        <div class="container py-5" id="chamado">
+            <div class="row mb-2">
+                <div class="col-12">
+                    <div class="titulo-chamado">
+                        <h2 class="text-center">
+                            Você conta com todas<br> essas <span class="txt-roxo">funcionalidades!</span>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6 col-12 mb-4">
+                    <div class="content-card1-chamado rounded-4 p-3">
+                        <img src="icons/icon1-chamado.png" alt="Icone">
+                        <h3>
+                            Chatbot Inteligente
+                        </h3>
+                        <p>
+                            Transforme suas interações com um chatbot inteligente que automatiza conversas, proporcionando respostas rápidas e personalizadas. 
+                            <br><br>
+                            Mantenha seus clientes engajados a qualquer hora do dia, garantindo um atendimento 24/7 que eleva a experiência do usuário e fortalece o relacionamento com a marca.
+                        </p>
+                        <a href="planos.html" class="btn-card1-chamado py-1 px-3 rounded-4">
+                            Saiba Mais
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12 mb-4">
+                    <div class="content-card2-chamado rounded-4 p-3">
+                        <img src="icons/icon1-chamado.png" alt="Icone">
+                        <h3>
+                            Respostas Automáticas
+                        </h3>
+                        <p>
+                            Configure respostas instantâneas para as perguntas mais comuns com o zapbotconnect, economizando tempo e melhorando significativamente o atendimento ao cliente. 
+                            <br><br>
+                            Automatize interações, garantindo que seus usuários recebam as informações que precisam de forma rápida e eficiente.
+                        </p>
+                        <a href="planos.html" class="btn-card1-chamado py-1 px-3 rounded-4">
+                            Saiba Mais
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12 mb-4">
+                    <div class="content-card3-chamado rounded-4 p-3">
+                        <img src="icons/icon1-chamado.png" alt="Icone">
+                        <h3>
+                            Captura de Leads
+                        </h3>
+                        <p>
+                            Colete informações valiosas de novos contatos diretamente no WhatsApp e crie uma base de leads qualificada, permitindo que você construa relacionamentos mais fortes e aumente suas oportunidades. 
+                            <br><br>
+                            Utilize essa plataforma para interagir de forma mais eficaz e personalizada, garantindo que cada lead seja tratado com atenção.
+                        </p>
+                        <a href="planos.html" class="btn-card1-chamado py-1 px-3 rounded-4">
+                            Saiba Mais
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12 mb-4">
+                    <div class="content-card4-chamado rounded-4 p-3">
+                        <img src="icons/icon1-chamado.png" alt="Icone">
+                        <h3>
+                            Integração com ChatGPT
+                        </h3>
+                        <p>
+                            Aproveite o poder da IA para tornar as interações mais dinâmicas e humanizadas. 
+                            <br><br>
+                            Com a integração com ChatGPT, seu chatbot consegue responder perguntas complexas, oferecer recomendações personalizadas e aprimorar a experiência do cliente de forma automatizada e inteligente.
+                        </p>
+                        <a href="planos.html" class="btn-card1-chamado py-1 px-3 rounded-4">
+                            Saiba Mais
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--
+        ==================================================================
+                                    Serviços
+        ==================================================================
+        -->
+        <div class="container pt-5" id="servicos">
+            <div class="row">
+                <div class="col-lg-6 col-12 d-flex justify-content-center align-items-center">
+                    <div class="content1-servicos">
+                        <h2>
+                            Teste <span class="txt-roxo">Grátis</span><br> Por <span class="txt-roxo">3 Dias</span> 
+                        </h2>
+                        <p>
+                            Experimente o <span class="txt-roxo">ZapbotConnect</span> com acesso completo por 3 dias, sem compromisso! Aproveite essa oportunidade para conhecer todas as funcionalidades e ver como nosso sistema de automação pode otimizar seu atendimento e impulsionar suas vendas.
+                        </p>
+                        <a href="https://app.zapbotconnect.com.br/#/signup" target="_blank" class="rounded-5 py-2 px-4">
+                            TESTAR GRÁTIS POR 3 DIAS
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12">
+                    <div class="content2-servicos">
+                        <img src="img/img-servicos.png" alt="Imagem" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--
+        ==================================================================
+                                    Vantagens
+        ==================================================================
+        -->
+        <section  id="vantagens">
+            <div class="container py-5 d-flex flex-column justify-content-center align-items-center">
+                <div class="row mb-3">
+                    <div class="col-7 mx-auto">
+                        <div class="content-vantagens-titulo">
+                            <h2 class="text-center">
+                                Por Que Escolher a <span class="txt-roxo">ZapbotConnect?</span>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="content-card-vantagens d-flex mb-4 rounded-4">
+                            <div class="card-img-vantagens d-flex align-items-center">
+                                <img src="icons/icon-card1-vantagens.png" alt="Vantagens">
+                            </div>
+                            <div class="card-txt-vantagens my-auto px-4 py-2">
+                                <h3 class="p-0 mb-2">
+                                    1. Atendimento Rápido e Eficiente
+                                </h3>
+                                <p class="p-0 m-0 mb-2">
+                                    Reduza o tempo de resposta e melhore o atendimento ao cliente com respostas automáticas e chatbots inteligentes, prontos para responder 24/7.
+                                </p>
+                                <div class="btn-vantagens text-end">
+                                    <a href="planos.html" class="py-1 px-3 rounded-4">
+                                        Saiba Mais
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="content-card-vantagens d-flex mb-4 rounded-4">
+                            <div class="card-img-vantagens d-flex align-items-center">
+                                <img src="icons/icon-card2-vantagens.png" alt="Vantagens">
+                            </div>
+                            <div class="card-txt-vantagens my-auto px-4 py-2">
+                                <h3 class="p-0 mb-2">
+                                    2. Aumento nas Vendas
+                                </h3>
+                                <p class="p-0 m-0">
+                                    Capture leads e gerencie contatos de forma mais eficaz, transformando interações em oportunidades reais de venda.
+                                </p>
+                                <div class="btn-vantagens text-end">
+                                    <a href="planos.html" class="py-1 px-3 rounded-4">
+                                        Saiba Mais
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="content-card-vantagens d-flex mb-4 rounded-4">
+                            <div class="card-img-vantagens d-flex align-items-center">
+                                <img src="icons/icon-card3-vantagens.png" alt="Vantagens">
+                            </div>
+                            <div class="card-txt-vantagens my-auto px-4 py-2">
+                                <h3 class="p-0 mb-2">
+                                    3. Personalização do Atendimento
+                                </h3>
+                                <p class="p-0 m-0">
+                                    Reduza o tempo de resposta e melhore o atendimento ao cliente com respostas automáticas e chatbots inteligentes, prontos para responder 24/7.
+                                </p>
+                                <div class="btn-vantagens text-end">
+                                    <a href="planos.html" class="py-1 px-3 rounded-4">
+                                        Saiba Mais
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="content-card-vantagens d-flex mb-4 rounded-4">
+                            <div class="card-img-vantagens d-flex align-items-center">
+                                <img src="icons/icon-card4-vantagens.png" alt="Vantagens">
+                            </div>
+                            <div class="card-txt-vantagens my-auto px-4 py-2">
+                                <h3 class="p-0 mb-2">
+                                    4. Integração com Ferramentas de CRM
+                                </h3>
+                                <p class="p-0 m-0">
+                                    Reduza o tempo de resposta e melhore o atendimento ao cliente com respostas automáticas e chatbots inteligentes, prontos para responder 24/7.
+                                </p>
+                                <div class="btn-vantagens text-end">
+                                    <a href="planos.html" class="py-1 px-3 rounded-4">
+                                        Saiba Mais
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="content-card-vantagens d-flex mb-4 rounded-4">
+                            <div class="card-img-vantagens d-flex align-items-center">
+                                <img src="icons/icon-card5-vantagens.png" alt="Vantagens">
+                            </div>
+                            <div class="card-txt-vantagens my-auto px-4 py-2">
+                                <h3 class="p-0 mb-2">
+                                    5. Análise e Otimização de Resultados
+                                </h3>
+                                <p class="p-0 m-0">
+                                    Com relatórios de desempenho detalhados, acompanhe o sucesso das suas campanhas e faça ajustes para melhorar o engajamento.
+                                </p>
+                                <div class="btn-vantagens text-end">
+                                    <a href="planos.html" class="py-1 px-3 rounded-4">
+                                        Saiba Mais
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="content-card-vantagens d-flex mb-4 rounded-4">
+                            <div class="card-img-vantagens d-flex align-items-center">
+                                <img src="icons/icon-card6-vantagens.png" alt="Vantagens">
+                            </div>
+                            <div class="card-txt-vantagens my-auto px-4 py-2">
+                                <h3 class="p-0 mb-2">
+                                    6. Comunicação Multicanal em um Só Lugar
+                                </h3>
+                                <p class="p-0 m-0">
+                                    Gerencie interações de WhatsApp, Facebook e Instagram em uma única plataforma, simplificando o atendimento e aumentando a produtividade.
+                                </p>
+                                <div class="btn-vantagens text-end">
+                                    <a href="planos.html" class="py-1 px-3 rounded-4">
+                                        Saiba Mais
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--
+        ==================================================================
+                                    Sobre
+        ==================================================================
+        -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="content1-sobre">
+                        <img src="img/img-sobre.png" class="img-fluid" alt="Imagem sobre">
+                    </div>
+                </div>
+                <div class="col-lg-6 d-flex align-items-center">
+                    <div class="content2-sobre">
+                        <h2>
+                            Quem somos
+                        </h2>
+                        <h4 class="w-75">
+                            Apresentamos a nova solução de automação que vai revolucionar o mercado!
+                        </h4>
+                        <p class="w-75">
+                            A ZapbotConnect é uma solução inovadora em automação de WhatsApp voltada para empresas que desejam aprimorar a comunicação com seus clientes e otimizar o atendimento. Nossa plataforma permite que negócios de todos os portes implementem chatbots e automações que agilizam o envio de respostas, captura de leads, e geração de vendas. Com uma interface simples e integração completa, facilitamos a criação de fluxos personalizados para que sua equipe foque no que realmente importa: construir relacionamentos e impulsionar resultados.
+                        </p>
+                        <a href="https://wa.me/5581988298915" target="_blank" class="py-2 px-4 rounded-5">
+                            ENTRE EM CONTATO AGORA!
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--
+        ==================================================================
+                                    Faq
+        ==================================================================
+        -->
+        <section class="bg-faq">
+            <div class="container py-5" id="perguntasErespostas">
+                <div class="content-titulo-faq mb-2">
+                    <div class="titulos-faq">
+                        <h2 class="titulo1-faq m-0 p-0 text-center">
+                            Perguntas <span class="txt-roxo">Frenquentes</span>
+                        </h2>
+                    </div>
+                </div>
+                <div class="row mb-5 justify-content-center">
+                    <div class="col-8">
+                        <div class="content-faq">
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item mt-3">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            O que é o ZapBotConnect?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                    <hr class="mx-3 my-0">
+                                    <div class="accordion-body">
+                                        O ZapBotConnect é uma plataforma de automação para o WhatsApp que permite automatizar o atendimento ao cliente, qualificar leads e integrar com outras ferramentas como IA e CRM.
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item mt-3">
+                                    <h2 class="accordion-header">
+                                    <button class="accordion-button rounded-0 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Como funciona o sistema de respostas automáticas?
+                                    </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        As respostas automáticas são configuradas para responder instantaneamente a perguntas comuns dos clientes, agilizando o atendimento e garantindo respostas rápidas, 24/7.
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item mt-3">
+                                    <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        Quantos números de WhatsApp posso conectar?
+                                    </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Isso depende do plano escolhido. No plano básico, você pode conectar 1 número, no plano PRO, até 3, no plano Master, até 10 conexões e no plano Unlimited, você tem conexões ilimitadas.
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item mt-3">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                                            O que são filas de atendimento?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            As filas permitem que você crie menus de atendimento automático, como <br>[1] Suporte, <br>[2] Vendas <br>[3] Atendimento Geral. <br>Isso facilita a distribuição das demandas, direcionando o cliente para a área certa, dividindo seu atendimento por setores.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item mt-3">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                                            Posso agendar o envio de mensagens?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse5" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Sim, você pode agendar mensagens para serem enviadas em horários específicos, permitindo o planejamento de campanhas de marketing e follow-ups automáticos.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item mt-3">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                                            Qual a diferença entre respostas automáticas e agendamentos?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse6" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            As respostas automáticas são ativadas assim que o cliente interage com o sistema, enquanto os agendamentos permitem enviar mensagens em horários programados.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item mt-3">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+                                            O que é qualificação de leads?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse7" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            A qualificação de leads é o processo de filtragem automática que separa leads com maior potencial de conversão, otimizando o foco da equipe em leads qualificados.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item mt-3">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+                                            Como o ZapBotConnect organiza os leads?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse8" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            O sistema permite a organização de leads por tags, listas, e categorias. Isso facilita a segmentação de clientes para campanhas direcionadas e uma gestão mais eficiente.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item mt-3">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
+                                            Posso usar o ZapBotConnect com outras ferramentas?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse9" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Sim, o ZapBotConnect se integra com plataformas como Dialogflow, Typebot, n8n, e ChatGPT
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item mt-3">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
+                                            O que é o sistema de tags?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse10" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            O sistema de tags permite que você categorize seus leads com palavras-chave, facilitando a segmentação de campanhas e o acompanhamento das interações.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item mt-3">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse11" aria-expanded="false" aria-controls="collapse11">
+                                            Quantos usuários podem acessar o sistema?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse11" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Isso varia de acordo com o plano. No plano básico, são permitidos 3 usuários, no plano PRO, 6, e no plano Master, 10 usuários simultâneos.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item mt-3">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse12" aria-expanded="false" aria-controls="collapse12">
+                                            O que é o chat interno?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse12" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            O chat interno é uma funcionalidade que permite a comunicação direta entre os membros da equipe dentro da plataforma, facilitando a coordenação do atendimento.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item mt-3">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse13" aria-expanded="false" aria-controls="collapse13">
+                                            Como funciona o painel de análises de leads?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse13" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            O painel de análises oferece métricas detalhadas sobre o desempenho das campanhas, permitindo acompanhar o número de mensagens enviadas, entregues e abertas, além das conversões.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item mt-3">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse14" aria-expanded="false" aria-controls="collapse14">
+                                            O ZapBotConnect tem integração com CRM?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse14" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Sim, a plataforma permite integrar com diversos sistemas de CRM para sincronizar contatos, histórico de interações e melhorar o gerenciamento de leads.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item mt-3">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse15" aria-expanded="false" aria-controls="collapse15">
+                                            O sistema suporta campanhas de disparo em massa?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse15" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Sim, a partir do plano PRO você pode criar campanhas de disparo em massa, enviando mensagens para vários leads ao mesmo tempo, otimizando a comunicação em larga escala.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item mt-3">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse16" aria-expanded="false" aria-controls="collapse16">
+                                            Posso enviar notificações personalizadas?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse16" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Sim, você pode configurar notificações personalizadas para manter seus clientes informados sobre promoções, atualizações e outros assuntos importantes.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item mt-3">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse17" aria-expanded="false" aria-controls="collapse17">
+                                            O que é o Kanban no ZapBotConnect?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse17" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            O Kanban é um sistema visual de organização que ajuda você a gerenciar suas tarefas, leads e fluxos de atendimento de maneira intuitiva e eficiente.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item mt-3">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse18" aria-expanded="false" aria-controls="collapse18">
+                                            Como funcionam as integrações com ChatGPT e IA?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse18" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Com as integrações de IA, como ChatGPT, o ZapBotConnect permite que seu chatbot interaja de forma mais natural, personalizando as respostas e melhorando a experiência do cliente.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item mt-3">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse19" aria-expanded="false" aria-controls="collapse19">
+                                            Posso utilizar Webhooks com o ZapBotConnect?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse19" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Sim, o ZapBotConnect permite integrações via Webhooks, possibilitando a comunicação com outros sistemas de forma automatizada.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item mt-3">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse20" aria-expanded="false" aria-controls="collapse20">
+                                            O que são agendamentos de tarefas?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse20" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Agendamentos de tarefas permitem que você planeje e organize suas atividades e campanhas de atendimento, garantindo que nada seja esquecido.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item mt-3">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse21" aria-expanded="false" aria-controls="collapse21">
+                                            Como o ZapBotConnect melhora a eficiência do atendimento?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse21" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Com a automação de respostas, qualificação de leads e a organização eficiente dos contatos, o ZapBotConnect reduz o tempo de resposta e melhora a eficiência operacional.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item mt-3">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse22" aria-expanded="false" aria-controls="collapse22">
+                                            O que acontece se eu ultrapassar o limite de conexões?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse22" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Se você precisar de mais conexões do que o plano permite, será necessário fazer um upgrade para um plano com mais conexões disponíveis.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item mt-3">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse23" aria-expanded="false" aria-controls="collapse23">
+                                            O sistema oferece suporte a múltiplos dispositivos?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse23" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Sim, você pode acessar o ZapBotConnect em diferentes dispositivos, garantindo flexibilidade para sua equipe.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item mt-3">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse24" aria-expanded="false" aria-controls="collapse24">
+                                            Como funciona o período de teste gratuito?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse24" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Você pode testar o ZapBotConnect por 3 dias gratuitamente. Após esse período, a primeira fatura precisará ser paga, permitindo que você experimente todas as funcionalidades antes de se comprometer.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item mt-3">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse25" aria-expanded="false" aria-controls="collapse25">
+                                            Como funciona o processo de pagamento?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse25" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            O pagamento é realizado diretamente na plataforma, através do menu de faturas, e pode ser feito via PIX, garantindo uma confirmação rápida e segura.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item mt-3">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse26" aria-expanded="false" aria-controls="collapse26">
+                                            Posso alterar meu plano depois da contratação?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse26" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Pode sim! É só entrar em contato com o nosso suporte e eles irão te ajudar a alterar o plano conforme sua necessidade.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item mt-3">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse27" aria-expanded="false" aria-controls="collapse27">
+                                            O sistema permite que mais de um usuário atenda no mesmo número de WhatsApp?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse27" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Sim, dependendo do plano escolhido, vários usuários podem compartilhar o mesmo número de WhatsApp para atender leads simultaneamente.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item mt-3">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse28" aria-expanded="false" aria-controls="collapse28">
+                                            Existe algum curso de treinamento para a plataforma?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse28" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Sim, oferecemos um curso completo no menu de ajuda, com tutoriais e orientações para você e sua equipe aproveitarem ao máximo todas as funcionalidades da plataforma.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item mt-3">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse29" aria-expanded="false" aria-controls="collapse29">
+                                            Como posso obter suporte técnico?
+                                        </button>
+                                    </h2>
+                                    <div id="collapse29" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Você pode entrar em contato diretamente com nossa equipe de suporte pelo WhatsApp, disponível em nosso site. Estamos prontos para ajudar com qualquer problema ou questão.
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="btn-faq text-center">
+                    <a href="https://wa.me/5581988298915" target="_blank" class="py-2 px-4 rounded-5">
+                        Fale com um dos nossos consultores
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+    <footer>
+        <!-- 
+        ==================================================================
+                                Footer Menu
+        ==================================================================
+        -->
+        <div class="container py-5" id="footer-menu">
+            <div class="row">
+                <div class="col-12 col-lg-3">
+                    <div class="content1-footer-menu d-flex flex-column">
+                        <div class="logo-footer text-center mb-1">
+                            <img src="img/logo-footer.png" alt="Logo footer">
+                        </div>
+                        <div class="btn-content1-footer-menu text-center">
+                            <a href="#">
+                                <i class="bi bi-youtube"></i>
+                            </a>
+                            <a href="#" class="mx-3">
+                                <i class="bi bi-facebook"></i>
+                            </a>
+                            <a href="#">
+                                <i class="bi bi-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-9 d-flex justify-content-end align-items-center">
+                    <div class="content2-footer-menu">
+                        <a href="index.html">
+                            Início
+                        </a>
+                        <a href="planos.html" class="mx-5">
+                            Planos
+                        </a>
+                        <a href="https://wa.me/5581988298915" target="_blank">
+                            Contato
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="linha-footer mx-auto mb-4 mt-2"></div>
+
+            <div class="row" id="footer-copy">
+                <div class="col-lg-6 text-center content1-footer2">
+                    <p>
+                        © 2024, Todos os diretos reservados. ZapbotConnect 
+                    </p>
+                </div>
+                <div class="col-lg-6 text-center content2-footer2">
+                    Desenvolvido por <a href="https://www.promovacomunicacao.com.br/">Promova Comunicação e Marketing</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+
+
+    <!-- Link Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!-- Link Swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Link JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+.sessao-inicial{
+    
+}
+
+.content1-sessao-inicial h1{
+    color: #5304C2;
+    font-family: var(--fonte-Poppins);
+    font-weight: 500;
+} 
+
+.btn-sessao-inicial{
+    background: linear-gradient(to top right, #5304C2, #8937FB);
+    color: white;
+    text-decoration: none;
+    border: 1px solid transparent;
+    transition: 0.4s;
+}
+.btn-sessao-inicial:hover{
+    background: transparent;
+    color: #5304C2;
+    border: 1px solid #5304C2;
+}
+
+@media (max-width: 991px){
+
+}

@@ -1,0 +1,33 @@
+.bg-info-bar{
+    background-color: #5204C2;
+    color: white;
+    font-family: var(--fonte-SegoeUi);
+}
+.contato-info-bar .bi{
+    font-size: 1.2rem;
+}
+
+.contato-info-bar p{
+    font-size: 1rem;
+}
+
+
+
+.redes-info-bar a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+.redes-info-bar a:hover{
+    color: #8937FB;
+}
+
+
+
+.header-top-fixo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Garante que o cabeçalho fique sobre outros elementos */
+}

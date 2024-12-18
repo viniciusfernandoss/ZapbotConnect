@@ -1,0 +1,47 @@
+#vantagens{
+    background-color: #f1f2f4;
+}
+
+.content-vantagens-titulo h2{
+    font-family:var(--fonte-Poppins);
+    font-weight: 600;
+}
+
+.content-card-vantagens{
+    background-color: white;
+    height: 170px;
+}
+
+.card-txt-vantagens h3{
+    font-family: var(--fonte-Poppins);
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.card-txt-vantagens p{
+    font-family: var(--fonte-Poppins);
+}
+
+.btn-vantagens a{
+    background: linear-gradient(to top right, #5304C2, #8937FB);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-family: var(--fonte-Poppins);
+    color: white;
+    font-weight: 400;
+    transition: 0.5s;
+}
+.btn-vantagens a:hover{
+    background: transparent;
+    color: #8937FB;
+    border: 2px solid #8937FB;
+}
+
+@media (max-width: 991px) {
+    #vantagens{
+        height: auto;
+    }
+    .content-vantagens-titulo h2{
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+}
