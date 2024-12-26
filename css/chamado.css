@@ -30,3 +30,15 @@
 .content-card4-chamado{
     background-color: #FF763C;
 }
+
+.swiper-slide{
+    margin-bottom: 55px;
+}
+.swiper-pagination-bullet {
+    background-color: black;
+    height: 15px;
+    width: 15px;
+}
+.swiper-pagination-bullet-active {
+    background-color: #5304C2;
+}

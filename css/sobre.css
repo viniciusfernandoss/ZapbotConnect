@@ -12,10 +12,12 @@
     font-family: var(--fonte-Poppins);
     font-weight: 500;
     font-size: 1.3rem;
+    width: 75%;
 }
 
 .content2-sobre p{
     font-family: var(--fonte-NunitoSans);
+    width: 75%;
 }
 
 .content2-sobre a{
@@ -28,4 +30,16 @@
     color: #5304C2;
     background: transparent;
     border: 1px solid #5304C2;
+}
+
+@media (max-width: 991px){
+    .content2-sobre h2{
+        font-size: 2rem;
+    }
+    .content2-sobre h4{
+        width: 100%;
+    }
+    .content2-sobre p{
+        width: 100%;
+    }
 }

@@ -44,4 +44,8 @@
         font-size: 1.5rem;
         font-weight: 600;
     }
+
+    .content-card-vantagens{
+        height: 240px;
+    }
 }

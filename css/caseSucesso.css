@@ -6,10 +6,13 @@
     font-family:var(--fonte-Poppins);
     color: #5304C2;
     font-weight: 500;
+    width: 75%;
 }
 
 .content2-case-de-sucesso p{
     color: #2C333A;
+    font-size: 1.2rem;
+    width: 75%;
 }
 
 .btn-case-de-sucesso{
@@ -27,5 +30,11 @@
 }
 
 @media (max-width: 991px) {
-    
+    .content2-case-de-sucesso p{
+        width: 100%;
+    }
+
+    .content2-case-de-sucesso h2{
+        width: 100%;
+    }
 }
